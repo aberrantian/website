@@ -1,4 +1,4 @@
-/* catppuccin frappe */
+/* catpuccin frappe */
 :root {
     --rosewater: #f2d5cf;
     --flamingo: #eebebe;
@@ -26,4 +26,22 @@
     --base: #303446;
     --mantle: #292c3c;
     --crust: #232634;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--base);
+    color: var(--text);
+    font-family: monospace;
+    font-size: 2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
