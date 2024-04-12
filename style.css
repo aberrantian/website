@@ -109,3 +109,10 @@ body {
     color: var(--base);
     background-color: var(--blue);
 }
+
+#coming-soon {
+    position: absolute;
+    top: 50%;
+
+    font-weight: bold;
+}
